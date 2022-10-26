@@ -2,7 +2,14 @@ import { ScrollView, StyleSheet, Text } from "react-native"
 import { SafeAreaView } from "react-native-safe-area-context"
 
 const ProjectsScreen = ()=>{
+
+
+
+
+
     return(
+
+        
 
       <SafeAreaView style={styles.projects}>
 

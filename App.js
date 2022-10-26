@@ -22,8 +22,8 @@ return (
   <NavigationContainer>
   
   <Tab.Navigator>
-    <Tab.Screen name= 'Home' component = {HomeScreen}/>
-    <Tab.Screen name= 'Browse' component = {BrowseStackNavigator}/>
+    {/* <Tab.Screen name= 'Home' component = {HomeScreen}/> */}
+    <Tab.Screen name= 'Beta' component = {BrowseStackNavigator}/>
     <Tab.Screen name= 'Settings' component = {SettingsScreen}/>
 
   </Tab.Navigator>
