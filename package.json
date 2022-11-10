@@ -2,6 +2,7 @@
   "name": "beta",
   "version": "0.0.1",
   "private": true,
+  "proxy": "http://localhost:3001",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

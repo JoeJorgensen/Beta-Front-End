@@ -1,4 +1,5 @@
 import { ScrollView, StyleSheet, Text } from "react-native"
+import { TouchableOpacity } from "react-native-gesture-handler"
 import { SafeAreaView } from "react-native-safe-area-context"
 
 const BoulderingScreen = ()=>{
@@ -13,7 +14,12 @@ const BoulderingScreen = ()=>{
 
       <SafeAreaView style={styles.projects}>
             <Text>Bouldering Screen</Text>
-            
+            <TouchableOpacity onPress={()=>
+            ///need to set up backend to go further on this
+             navigation.navigate("Projects")} style=
+             {styles.link}>
+
+            </TouchableOpacity>
 
             
              
